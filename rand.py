@@ -1,3 +1,5 @@
+from random import randint
+
 def page_fault(pages, frames):
 
 	if frames >= len(pages):
@@ -12,7 +14,9 @@ def page_fault(pages, frames):
 		if page not in memory:
 			# remove a page only if memory is filled up
 			if len(memory) == frames:
-				del memory[0]
+				# find a random index to remove
+				index = randint(0, len(memory) - 1)
+				del memory[index]
 			memory.append(page)
 			page_faults = page_faults + 1
 
