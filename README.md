@@ -1,15 +1,6 @@
-# BankerAlgorithm
+# SimPage
 
-The purpose of this programming project is to explore a resource allocation algorithm. This can be achieved by implementing the banker's algorithm as described in our textbook and discussed in class
+The purpose of this program is to simulate different page replacement algorithm. The program will read in a test file that have a list of page numbers and list of page replacement algorithm. The program then simulate the algorithm and report the number of page faults of each algorithm
 
-Compile
-```
-go build bankerAlgorithm
-```
 
-Run: ```./bankerAlgorithm <file>```
-
-Example:
-```
-./bankerAlgorithm sample.txt
-```
+Run: ```python simpage.py < <testFile>```

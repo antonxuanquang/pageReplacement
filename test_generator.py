@@ -1,6 +1,6 @@
 from random import randint
 
-for i in xrange(1000000):
+for i in xrange(100000):
 	print randint(0,10),
 
 print """
@@ -11,48 +11,4 @@ LFU
 OPT
 RAND
 MFU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
-MRU
 """
